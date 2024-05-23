@@ -20,3 +20,10 @@ Final question answering from the retrieved paragraph:
 ![image](https://github.com/aayush01x/pclub_secy_task_04/assets/153027947/cdf164bc-fe00-40a0-aa4f-82a90fb4db33)
 
 FineTuning the models on current data would have produced much much better results, but due to time and resource constraint, I wasn't able to do so.
+
+
+### How to Run:
+1. Update the path variables in para_finder.ipynb, comment out 3rd last cell, and pass the query as run_search(str(query_text), num_results_to_print) where query_text is the question and num_results_to_print is number of top paragraphs needed.
+   
+2. run final_integrated to get the answer.
+   Pretrained weights for final_integrated: https://drive.google.com/file/d/1ubh0X_o1sdgmZyIdqiuFXsZEd726QyDA/view?usp=sharing (quantized.pt)
